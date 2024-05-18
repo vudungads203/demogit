@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id ="kq"></h1>
+    <input type="text" placeholder="Nhap gi cung duoc" id="a">
+    <button onclick="getData()">Nhập</button>
+    <!--onclick la su kien nhan cua html va thực hiện hành động "getData() được khai báo bên dưới"-->
+    <script>
+        //Bien: Là đại diện cho vùng nhớ chứa dữ liệu.
+        //let name= "Dung";
+        //Cú pháp:  let <tên biến> = <giá trị>;
+        //alert(name);
+
+        // tao mot bien co ten la age gia tri la mot so 1704 va hien thi bang alert;
+        //let age= 1704;
+        //alert(age);
+
+       /* let a = 1;
+        let b = 2;
+        let c = a + b;
+        alert(a + b); 
+        let a = 3;
+        let b = 5;
+        let c = a % b;
+        alert(c);
+        let a = 3; // let chỉ dùng để khai báo
+        a = 10; // gán lại giá trị cho a
+        alert(a); */
+        // nhap xuat (input/output) trong js
+      //  alert("hello"); //hien thi tren 1 hop thoai
+      //document.write("hello c04");// hien thi len 1 trang web;
+      //  let a = "hello c04"
+        //console.log(a);
+    
+    
+    //let a = "Hello c04";
+    //document.getElementById("kq").innerHTML = a;
+
+    //nhap du lieu
+    //let a = prompt("Nhap gia tri di: "); // hien thi hop thoai nguoi dung nhap
+    //alert(a);
+
+    function getData() { //khai bao 1 hanh dong gì đó
+        let a = document.getElementById("a").value; // lấy dữ liệu ô input
+        alert(a);
+    }
+    </script>
+</body>
+</html>
